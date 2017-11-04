@@ -1,0 +1,358 @@
+html{
+	margin:0;
+	background:#343F50;
+	font-family:Arial;
+}
+
+.container{
+	width: 800px;
+	background:white;
+	margin:0 auto;
+	position:relative;
+	border-radius: 8px;
+}
+.identification{
+	width: 800px;
+	height:125px;
+	/*background:red;*/
+
+}
+.identification div.img{
+	width: 120px;
+	height:120px;
+	margin: 10px;
+	border-radius: 50%;
+	border: 1px solid black;
+	display:inline-block;
+	background-image:url(images/Bushi-portrait.jpg);
+	background-size: cover;
+}
+.identification h1{
+	display:inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	color:#EF5411;
+
+}
+a.shiro{
+	font-weight:normal;
+}
+.identification span{
+	/*background: red;*/
+	font-weight:bold;
+	display:block;
+	color:#D8D8D8;
+	font-size: 20px;
+}
+.identification div.logo{
+	display:inline-block;
+	/*background:red;*/
+	vertical-align: top;
+	margin-top:35px;
+	margin-left: 230px;
+
+}
+.identification img.logo{
+	
+	/*background:red;*/
+	width:35px;
+	height:35px;
+	margin-right: 0;
+	margin-top: 15px;
+
+	font-size: 0;
+	line-height: center;
+}
+
+ /*SELECT*/
+div.select {
+	background:#D8D8D8;
+	display:block;
+	margin:0;
+	padding-left: 0;
+
+}
+.select ul{
+	margin-left:0;
+	font-size: 0;
+	margin-top:20px;
+	padding-left: 70px;
+
+
+}
+.select li{
+ 	display:inline-block;
+ 	background:#D8D8D8;
+ 	text-align: center;
+ 	box-sizing:border-box;
+ 	vertical-align: top;
+ 	/*font-size: 20%;*/
+
+
+
+ }
+ .select li a{
+ 	display: inline-block;
+ 	color:#EF5411;
+ 	text-decoration: none;
+ 	text-align: top;
+ 	padding:20px;
+ 	/*background:red;*/
+ 	line-height:20px;
+ 	padding-bottom: 25px;
+ 	padding-top: 25px;
+ 	transition:all 0.3s;
+ 	font-size: 20px;
+
+ }
+ .select li a:hover{
+ 	background:#EF5411;
+ 	color:white;
+}
+
+
+/*COPYRIGHT*/
+
+.ro{
+	text-align: center;
+	color:#DCDCDC;
+	margin-top:10px;
+	font-size: 10px;
+
+}
+
+
+ /*PARCOURS*/
+
+p.index1{
+	margin:20px;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+	margin-bottom: 10px;
+}
+
+div.texteparcours{
+	background:white;
+	text-align: left;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	vertical-align: top;
+	height: 550px;
+}
+div.texteparcours h2{
+	font-size: 30px;
+	margin-left: 20px;
+	margin-bottom: 0;
+}
+div.texteparcours h4{
+	font-size: 20px;
+	color:#808080;
+	margin-left: 20px;
+	vertical-align: top;
+	margin-top:0;
+
+	
+
+}
+div.texteparcours p{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+/*PORTFOLIO*/
+
+div .portfolio ul.cadre,.cadre2{
+	display: block;
+	font-size: 50px;
+	height:200px;
+	/*background:red;*/
+	/*padding-bottom: 20px;*/
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 40px;
+
+
+}
+ul.cadre2{
+	padding-top: 0;
+}
+
+div .portfolio li.images,
+li.images2{
+	display:inline-block;
+	width:150px;
+	height: 150px;
+	/*background:green;*/
+	font-size: 30px;
+	border: 2px solid black;
+	margin-left: 15px;
+	border-radius: 8px;
+}
+
+
+div .portfolio li.images:hover{
+	border:2px solid #EF5411;
+}
+li.images2:hover{
+	border:2px solid #EF5411;
+}
+
+.images:nth-of-type(1){background-image:url(images/Samourai_copie.jpg);
+	background-size: cover;background-position: center;}
+.images:nth-of-type(2){background-image:url(images/bushido-armure.jpg);
+	background-size: cover;background-position: center;}
+.images:nth-of-type(3){background-image:url(images/photosamurai.jpg);
+	background-size: cover;background-position: center;}
+.images:nth-of-type(4){background-image:url(images/Samourai-japonais-5.jpg);
+	background-size: cover;background-position: center;}
+
+.images2:nth-of-type(1){background-image:url(images/2012d4.jpg);
+	background-size: cover;background-position: center;}
+.images2:nth-of-type(2){background-image:url(images/japan-art-meiji.jpg);
+	background-size: cover;background-position: center;}
+.images2:nth-of-type(3){background-image:url(images/samoura-kusunoki-.jpg);
+	background-size: cover;background-position: center;}
+.images2:nth-of-type(4){background-image:url(images/un-sabre-samourai.jpg);
+	background-size: cover;background-position: center;}
+
+
+
+/*CONTACT*/
+
+div.contact{
+	/*background: red;*/
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	height:420px;
+
+}
+h1.contact{
+	margin-bottom: 5px;
+	/*background: yellow;*/	
+}
+p.contact{
+	/*background: green;*/
+	margin-top: 5px;
+	text-indent: 15px;
+}
+form.contact{
+	width:300px;
+	display:inline-block;
+}
+form.contact h4{
+	margin-bottom: 0;
+	display:block;
+}
+form.contact input{
+	display:block;
+	width:300px;
+	line-height:35px;
+	font-size:15px;
+	padding-left:12px;
+	margin-bottom:10px;
+	border:1px solid #666;
+}
+#bouton{
+	display:block;
+	background:#EF5411;
+	color: white;
+	width: 150px;
+	font-size:20px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	border-radius:8px;
+}
+div.textarea{
+	display:inline-block;
+	/*background:green;*/
+	width: 360px;
+}
+div.textarea h4{
+	display: block;
+	margin:0;
+	position:relative; left:75px; bottom:37px;
+}
+textarea{
+	display: inline-block;
+	font-size: 30px;
+	margin-right: 0;
+	position:relative; left:75px; bottom:37px;
+	height:200px;
+}
+
+/*COMPETENCES*/
+
+
+div.competences{
+	/*background: green;*/
+	height: 360px;
+	p
+}
+
+h1.title{
+	font-size: 22px;
+	padding-bottom: 5px;
+	color:#696969;
+}
+
+
+ul.gauche h1,ul.droite h1{
+	margin-bottom: 0;
+}
+
+div.competences ul.gauche,ul.droite{
+	display: inline-block;
+	margin: 20px;
+	width: 300px;
+	margin-left: 31px;
+	/*background: red;*/
+	list-style: none;
+
+}
+ul.competences2{
+	/*background: yellow;*/
+	padding-left: 0;
+}
+li.competences2{
+	font-size: 15px;
+	list-style: none;
+	padding-left: 10px;
+	color:#808080 ;
+	padding:5px;
+	position:relative;
+
+
+}
+li.competences2:nth-of-type(2n+1){background: #DDDDDD;}
+
+ul.point{
+	display:inline-block;
+	margin-right: 0;
+	position:absolute;
+	right: 10px;
+}
+li.point{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background-color: grey;
+	border-radius: 25px;
+	margin-right: 5px;
+}
+li.point:nth-of-type(1){background-color: orange;}
+li.point:nth-of-type(2){background-color: orange;}
+li.point:nth-of-type(3){background-color: orange;}
+
+
+
+
+
+
+
+
+
+
